@@ -25,6 +25,8 @@ public class SeedingApplicationDataConfiguration {
     private static final String RENEWABLES_PRICE_PLAN_ID = "price-plan-1";
     private static final String STANDARD_PRICE_PLAN_ID = "price-plan-2";
 
+
+
     @Bean
     public List<PricePlan> pricePlans() {
         final List<PricePlan> pricePlans = new ArrayList<>();
